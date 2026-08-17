@@ -199,3 +199,123 @@ footer {
   font-size: 1.4rem;
   margin-left: 15px;
 }
+
+/* Lifestyle Page Specifics (Image 2) */
+.lifestyle-hero {
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #FFF;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.script-accent {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  color: #F8F3E6;
+}
+
+.main-title {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 0.9;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.hero-subtext {
+  max-width: 320px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.tagline-bar {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--accent-orange);
+  letter-spacing: 1px;
+}
+
+/* Feature Cards */
+.options-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feature-card {
+  border-radius: 15px;
+  padding: 25px 20px;
+  color: #FFF;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navy-card {
+  background-color: var(--primary-navy);
+}
+
+.rust-card {
+  background-color: #8C3A18;
+}
+
+.card-icon-circle {
+  font-size: 2.5rem;
+  min-width: 60px;
+  text-align: center;
+}
+
+.feature-card h2 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.card-tagline {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #E2B29F;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.btn-light {
+  background-color: #EFE8DA;
+  color: var(--primary-navy);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+}
+
+/* Footer Accent */
+.lifestyle-footer {
+  background-color: var(--primary-navy);
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.script-heading-light {
+  font-family: var(--font-script);
+  color: var(--accent-orange);
+  font-size: 2.2rem;
+}
+
+.lifestyle-footer .phone {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.lifestyle-footer .domain {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: #E2B29F;
+}
+
