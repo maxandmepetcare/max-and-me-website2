@@ -319,3 +319,200 @@ footer {
   color: #E2B29F;
 }
 
+/* Adventure Club Page Specifics (Image 3) */
+.club-banner {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: var(--primary-navy);
+  color: #FFF;
+}
+
+.badge-title {
+  background-color: #8C3A18;
+  color: #FFF;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+
+.script-tagline {
+  font-family: var(--font-script);
+  font-size: 1.8rem;
+  color: #E2B29F;
+  margin: 15px 0 5px;
+}
+
+.banner-description {
+  max-width: 500px;
+  margin: 0 auto 15px;
+  font-size: 0.9rem;
+  color: #F8F3E6;
+}
+
+.motto-bar {
+  font-family: var(--font-heading);
+  color: var(--accent-orange);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/* Containers & Cards */
+.section-container {
+  padding: 15px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.perfect-for-card {
+  background-color: #EFE8DA;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tag-label {
+  background-color: #8C3A18;
+  color: #FFF;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.perks-list {
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary-navy);
+}
+
+.perks-list ul {
+  list-style: none;
+}
+
+.perks-list li {
+  margin-bottom: 5px;
+}
+
+.perks-list i {
+  color: var(--accent-orange);
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+/* Dark Box Section */
+.dark-box {
+  background-color: var(--primary-navy);
+  border-radius: 12px;
+  padding: 25px 20px;
+  color: #FFF;
+}
+
+.box-title {
+  font-family: var(--font-heading);
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.feature-item .icon {
+  font-size: 1.6rem;
+  color: var(--accent-orange);
+  margin-top: 3px;
+}
+
+.feature-item h4 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 3px;
+}
+
+.feature-item p {
+  font-size: 0.8rem;
+  color: #D1D5DB;
+}
+
+/* Wood Plank Element */
+.plank-banner {
+  background-color: #63432B;
+  color: #F8F3E6;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 12px;
+  margin: 15px 0;
+  letter-spacing: 2px;
+}
+
+.plank-banner i {
+  color: var(--accent-orange);
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+/* Rust Box Section */
+.rust-box {
+  background-color: #8C3A18;
+  border-radius: 12px;
+  padding: 25px 20px;
+  color: #FFF;
+}
+
+.perks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.perk-card .icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.perk-card h4 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.perk-card p {
+  font-size: 0.8rem;
+}
+
+/* Quote Card */
+.quote-card {
+  background-color: #EFE8DA;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+}
+
+.quote-script {
+  font-family: var(--font-script);
+  font-size: 2.8rem;
+  color: var(--primary-navy);
+}
+
